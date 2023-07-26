@@ -18,7 +18,7 @@ monitor_thread.start()
 monitor.kill()
 ```
 
-* `ComputerResourceMonitor`: 모니터링 시스템을 불러옵니다. object는 stop state로 생성되기 때문에, `restart`가 필요합니다.
+* `ComputerResourceMonitor`: 모니터링 시스템을 객체를 생성합니다. object는 stop state로 생성되기 때문에, `restart`가 필요합니다.
 * `monitor.restart()`: 시스템을 다시 시작합니다. CPU, GPU, RAM, consumed time을 측정합니다.
 * `monitor.stop()`: 시스템을 정지합니다. 기록된 리소스는 리스트의 형태로 메모리에 남아있습니다. `restart`하면 다시 이어서 기록을 시작합니다.
 * `monitor.reset()`: 기록된 리소스 리스트를 초기화합니다.
