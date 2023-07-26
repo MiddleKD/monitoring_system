@@ -2,6 +2,7 @@
 컴퓨터 리소스를 모니터링하는 코드입니다.
 
 
+---
 ## CPU, GPU, RAM, time 모니터링
 
 ### Usage
@@ -31,6 +32,7 @@ monitor.kill()
 "avg_gpu":avg_gpu, "max_gpu":max_gpu,\
 "avg_time":avg_time, "max_time":max_time}
 ```
+
 
 ---
 
